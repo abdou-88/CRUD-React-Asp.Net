@@ -28,31 +28,3 @@ export const create = (data, onSuccess) => (dispatch) => {
     })
     .catch((err) => console.log(err));
 };
-
-export const update = (id, data, onSuccess) => (dispatch) => {
-  api
-    .client()
-    .update(id, data)
-    .then((res) => {
-      dispatch({
-        type: ACTION_TYPES.CLIENT.UPDATE,
-        payload: { id, ...data },
-      });
-      onSuccess();
-    })
-    .catch((err) => console.log(err));
-};
-
-export const Delete = (id, onSuccess) => (dispatch) => {
-  api
-    .client()
-    .delete(id)
-    .then((res) => {
-      dispatch({
-        type: ACTION_TYPES.CLIENT.DELETE,
-        payload: id,
-      });
-      onSuccess();
-    })
-    .catch((err) => console.log(err));
-};
