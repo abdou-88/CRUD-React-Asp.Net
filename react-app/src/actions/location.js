@@ -14,19 +14,6 @@ export const fetchAll = () => (dispatch) => {
     .catch((err) => console.log(err));
 };
 
-//till here the data ggets fetch fine
-export const fetchById = (id) => (dispatch) => {
-  api
-    .client()
-    .fetchById(id)
-    .then((response) => {
-      dispatch({
-        type: ACTION_TYPES.CLIENT.FETCH_BY_ID,
-        payload: response.data,
-      });
-    })
-    .catch((err) => console.log(err));
-};
 
 export const create = (data, onSuccess) => (dispatch) => {
   api
