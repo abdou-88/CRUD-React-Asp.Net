@@ -13,18 +13,3 @@ export const fetchAll = () => (dispatch) => {
     })
     .catch((err) => console.log(err));
 };
-
-
-export const create = (data, onSuccess) => (dispatch) => {
-  api
-    .client()
-    .create(data)
-    .then((res) => {
-      dispatch({
-        type: ACTION_TYPES.CLIENT.CREATE,
-        payload: res.data,
-      });
-      onSuccess();
-    })
-    .catch((err) => console.log(err));
-};
