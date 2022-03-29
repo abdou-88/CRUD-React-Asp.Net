@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w39JyX3175E1D+8oZmCIL+Ctd0GIdmI4pKmbQsBxhJWFYHuTbhrL9DHgdf6/PO67JEnTjxgcOkZV/p5vUHvGaw==",
+  "dgSpecHash": "6HxbcTpgxt02irILS5UpValuSSUMtGm5MNGkry8tm+XHDaQLX0U2jr7w8JMI9GVG35vwbdnogKl6VACuzDl1cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ac25362\\Desktop\\Vscode projects\\C# Projects\\working ones\\CRUD-React-Asp.Net\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\ac25362\\Desktop\\Vscode projects\\Working projects\\C#\\CRUD-React-Asp.Net\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ac25362\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\ac25362\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
